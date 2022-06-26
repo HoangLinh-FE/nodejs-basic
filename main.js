@@ -1,5 +1,6 @@
 const express = require("express");
 const app = express();
+const morgan = require("morgan");
 const port = 3000;
 
 app.get("/", (req, res) => {
